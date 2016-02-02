@@ -61,7 +61,7 @@ export HISTCONTROL=ignoredups
 export INPUTRC=$HOME/.inputrc
 
 # textmate is the default editor
-export EDITOR="/usr/local/bin/mate -w"
+export EDITOR="$HOME/bin/mate -w"
 
 # FUNCTIONS ---------------------------------------------
 

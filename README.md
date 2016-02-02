@@ -14,7 +14,7 @@ An opinionated collection of useful setups and dotfiles with inspiration from @p
 - Homebrew cask in `~/homebrew-cask` with applications in `~/Applications`
 - Colored output for grep, ls and git
 - Aliases, including git and ls
-- Simple prompt
+- Simple prompt with git support
 
 ## Todo
 

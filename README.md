@@ -15,3 +15,8 @@ An opinionated collection of useful setups and dotfiles with inspiration from @p
 - Colored output for grep, ls and git
 - Aliases, including git and ls
 - Simple prompt
+
+## Todo
+
+- More testing would certainly be good, but for now it is reasonable
+- Check out [mackup](https://github.com/lra/mackup) as an alternative solution for simpler synching

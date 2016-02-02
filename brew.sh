@@ -9,7 +9,6 @@ brew install git
 brew install python --without-sqlite
 brew install bash-completion
 brew install clang-format
-brew install homebrew/completions/brew-cask-completion
 brew install the_silver_searcher
 brew install bash # bash4
 

@@ -1,0 +1,7 @@
+[user]
+	name = Fabio Pellacini
+	email = fabio.pellacini@gmail.com
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/fabio/.gitignore_global

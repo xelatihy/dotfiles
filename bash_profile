@@ -15,8 +15,8 @@ export HOMEBREW_CASK_OPTS="--caskroom=$HOME/homebrew-cask/Caskroom --binarydir=$
 shopt -s nocaseglob; # Case-insensitive globbing (used in pathname expansion)
 shopt -s histappend; # Append to the Bash history file, rather than overwriting it
 shopt -s cdspell; # Autocorrect typos in path names when using `cd`
-# shopt -s autocd; # Automatically switch directory (only bash4)
-# shopt -s globstar; # Recursive globbing (only bash4)
+shopt -s autocd 2> /dev/null; # Automatically switch directory (only bash4)
+shopt -s globstar 2> /dev/null; # Recursive globbing (only bash4)
 
 # ls color rendering
 export CLICOLOR=1
@@ -62,3 +62,20 @@ export INPUTRC=$HOME/.inputrc
 
 # textmate is the default editor
 export EDITOR="/usr/local/bin/mate -w"
+
+# FUNCTIONS ---------------------------------------------
+
+# Determine size of a file or total size of a directory
+function fs() {
+	if du -b /dev/null > /dev/null 2>&1; then
+		local arg=-sbh;
+	else
+		local arg=-sh;
+	fi
+	if [[ -n "$@" ]]; then
+		du $arg -- "$@";
+	else
+		du $arg .[^.]* *;
+	fi;
+}
+

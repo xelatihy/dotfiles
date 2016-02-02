@@ -11,15 +11,24 @@ fi
 # homebrew cask options
 export HOMEBREW_CASK_OPTS="--caskroom=$HOME/homebrew-cask/Caskroom --binarydir=$HOME/bin"
 
-# color rendering
+# bash options
+shopt -s nocaseglob; # Case-insensitive globbing (used in pathname expansion)
+shopt -s histappend; # Append to the Bash history file, rather than overwriting it
+shopt -s cdspell; # Autocorrect typos in path names when using `cd`
+# shopt -s autocd; # Automatically switch directory (only bash4)
+# shopt -s globstar; # Recursive globbing (only bash4)
+
+# ls color rendering
 export CLICOLOR=1
-# export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export LSCOLORS=gxcxdxbxfxegedabagacad
 
 # aliases
 alias la="ls -alh"
 alias ll="ls -lh"
 alias grep="grep --color=auto"
+
+# shortcuts
+alias h="history"
 
 # git aliases
 alias ga="git add --all"

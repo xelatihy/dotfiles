@@ -11,5 +11,6 @@ brew install bash-completion2
 brew install clang-format
 brew install homebrew/completions/brew-cask-completion
 brew install the_silver_searcher
+brew install bash # bash4
 
 brew cleanup

@@ -1,6 +1,5 @@
-HOMEBREW=$HOME/homebrew
-
-PATH=$HOME/bin:$HOMEBREW/bin:$HOMEBREW/sbin:/usr/texbin:$PATH
+# setup path
+PATH=$HOME/bin:$HOME/homebrew/bin:$HOME/homebrew/sbin:/usr/texbin:$PATH
 
 # homebrew setups
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh

@@ -11,6 +11,14 @@ brew cask install google-chrome
 
 brew cask cleanup
 
+brew tap caskroom/fonts
+
+brew cask install font-hack
+brew cask install font-lato
+brew cask install font-open-sans
+brew cask install font-crimson-text
+brew cask install font-linux-libertine
+
 brew install homebrew/completions/brew-cask-completion
 
 brew cleanup

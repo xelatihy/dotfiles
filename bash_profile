@@ -26,6 +26,8 @@ export LSCOLORS=gxcxdxbxfxegedabagacad
 alias la="ls -alh"
 alias ll="ls -lh"
 alias grep="grep --color=auto"
+alias a="atom"
+alias m="mate"
 
 # shortcuts
 alias h="history"

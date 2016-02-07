@@ -8,6 +8,7 @@ brew cask update
 brew cask install atom
 brew cask install textmate
 brew cask install google-chrome
+brew cask install sourcetree
 
 brew cask cleanup
 

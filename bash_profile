@@ -28,6 +28,7 @@ alias ll="ls -lh"
 alias grep="grep --color=auto"
 alias a="atom"
 alias m="mate"
+alias o="open"
 
 # shortcuts
 alias h="history"

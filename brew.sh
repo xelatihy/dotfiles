@@ -11,5 +11,6 @@ brew install bash-completion
 brew install clang-format
 brew install the_silver_searcher
 brew install bash # bash4
+brew install ninja
 
 brew cleanup

@@ -12,5 +12,6 @@ brew install clang-format
 brew install the_silver_searcher
 brew install bash # bash4
 brew install ninja
+brew install glfw3
 
 brew cleanup

@@ -14,4 +14,6 @@ brew install bash # bash4
 brew install ninja
 brew install glfw3
 
+brew install https://raw.githubusercontent.com/ryanmjacobs/c/master/c.rb
+
 brew cleanup

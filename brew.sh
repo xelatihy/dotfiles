@@ -12,7 +12,7 @@ brew install clang-format
 brew install the_silver_searcher
 brew install bash # bash4
 brew install ninja
-brew install glfw3
+brew install --without-shared-library glfw3
 
 brew install https://raw.githubusercontent.com/ryanmjacobs/c/master/c.rb
 

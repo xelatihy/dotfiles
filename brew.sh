@@ -5,6 +5,7 @@ brew upgrade
 brew tap homebrew/versions
 
 brew install git
+brew install git-lfs
 brew install autojump
 brew install python --without-sqlite
 brew install python3

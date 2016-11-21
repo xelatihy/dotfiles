@@ -1,5 +1,5 @@
 # setup path
-PATH=$HOME/bin:$HOME/homebrew/bin:$HOME/homebrew/sbin:/usr/texbin:$PATH
+PATH=/usr/texbin:$PATH
 
 # homebrew setups
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
@@ -7,9 +7,6 @@ PATH=$HOME/bin:$HOME/homebrew/bin:$HOME/homebrew/sbin:/usr/texbin:$PATH
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
     . $(brew --prefix)/etc/bash_completion
 fi
-
-# homebrew cask options
-export HOMEBREW_CASK_OPTS="--caskroom=$HOME/homebrew-cask/Caskroom --binarydir=$HOME/bin"
 
 # bash options
 shopt -s nocaseglob; # Case-insensitive globbing (used in pathname expansion)

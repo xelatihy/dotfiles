@@ -1,5 +1,3 @@
-export HOMEBREW_CASK_OPTS="--caskroom=$HOME/homebrew-cask/Caskroom --binarydir=$HOME/bin"
-
 brew tap caskroom/cask
 brew tap caskroom/versions
 

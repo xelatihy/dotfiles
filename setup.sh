@@ -12,5 +12,3 @@ $DOTFILES/symlink.sh
 
 # execute homebrew
 $DOTFILES/brew.sh
-$DOTFILES/brew_cask.sh
-

@@ -16,6 +16,7 @@ brew install the_silver_searcher
 brew install bash # bash4
 brew install ninja
 brew install glfw3
+brew install cmake
 
 brew install https://raw.githubusercontent.com/ryanmjacobs/c/master/c.rb
 

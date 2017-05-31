@@ -6,15 +6,14 @@ An opinionated collection of useful setups and dotfiles with inspiration from @p
 
 - Clone the repo into `~/dotfiles`
 - Run `~/dotfiles/setup.sh` to setup a new machine once
-- Run `~/dotfiles/symlink.sh` to setup all symlinks
 
 ## Features
 
-- Homebrew in `~/homebrew` for use in multi-user machines
-- Homebrew cask in `~/homebrew-cask` with applications in `~/Applications`
+- Homebrew in standard folder for easy install
 - Colored output for grep, ls and git
 - Aliases, including git and ls
 - Simple prompt with git support
+- Font files
 
 ## Todo
 

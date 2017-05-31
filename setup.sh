@@ -13,5 +13,8 @@ $DOTFILES/symlink.sh
 # execute homebrew
 $DOTFILES/brew.sh
 
+# execute pip
+$DOTFILES/pip.sh
+
 # git setup
 git lfs install

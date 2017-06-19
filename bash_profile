@@ -61,7 +61,7 @@ export HISTCONTROL=ignoredups
 export INPUTRC=$HOME/.inputrc
 
 # textmate is the default editor
-export EDITOR="/usr/local/bin/mate -w"
+export EDITOR="/usr/local/bin/atom --wait"
 
 # FUNCTIONS ---------------------------------------------
 
@@ -78,4 +78,3 @@ function fs() {
 		du $arg .[^.]* *;
 	fi;
 }
-

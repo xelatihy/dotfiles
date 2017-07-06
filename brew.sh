@@ -14,5 +14,6 @@ brew install bash # bash4
 brew install ninja
 brew install glfw3
 brew install cmake
+brew install node
 
 brew cleanup

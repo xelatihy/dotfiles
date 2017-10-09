@@ -4,4 +4,4 @@ pip3 install markdown
 pip3 install pygments
 
 # old scripts compatibility
-pip install markdown
+pip2 install markdown

@@ -20,6 +20,7 @@ export CLICOLOR=1
 export LSCOLORS=gxcxdxbxfxegedabagacad
 
 # aliases
+alias l="ls -lh"
 alias la="ls -alh"
 alias ll="ls -lh"
 alias grep="grep --color=auto"

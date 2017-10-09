@@ -15,5 +15,6 @@ brew install ninja
 brew install glfw3
 brew install cmake
 brew install node
+brew install fd
 
 brew cleanup

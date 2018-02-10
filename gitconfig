@@ -7,7 +7,7 @@
 	excludesfile = /Users/fabio/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -18,3 +18,12 @@
 	process = git-lfs filter-process
 [commit]
 	template = /Users/fabio/.stCommitMsg
+[alias]
+	st = status -s -b -u
+	cm = commit -a -m
+	ff = merge --ff-only
+	mm = merge --no-ff
+	undo = reset --hard
+	br = branch
+	rb = branch -d
+	co = checkout

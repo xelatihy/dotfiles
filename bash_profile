@@ -75,3 +75,6 @@ function fs() {
 		du $arg .[^.]* *;
 	fi;
 }
+
+export PATH="$HOME/.cargo/bin:$PATH"
+export MSBuildSDKsPath="/usr/local/share/dotnet/sdk/2.2.104/Sdks"

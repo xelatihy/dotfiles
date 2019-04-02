@@ -5,6 +5,7 @@
 	default = simple
 [core]
 	excludesfile = /Users/fabio/.gitignore_global
+	editor = code --wait
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -16,8 +17,6 @@
 	smudge = git-lfs smudge -- %f
 	required = true
 	process = git-lfs filter-process
-[commit]
-	template = /Users/fabio/.stCommitMsg
 [alias]
 	st = status -s -b -u
 	cm = commit -a -m

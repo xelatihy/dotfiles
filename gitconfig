@@ -18,14 +18,7 @@
 	required = true
 	process = git-lfs filter-process
 [alias]
-	st = status -s -b -u
-	cm = commit -a -m
-	ff = merge --ff-only
-	mm = merge --no-ff
-	undo = reset --hard
-	br = branch
-	rb = branch -d
-	co = checkout
+	history = log --oneline --graph
 [status]
 	showUntrackedFiles = normal
 	branch = true

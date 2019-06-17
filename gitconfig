@@ -19,7 +19,10 @@
 	process = git-lfs filter-process
 [alias]
 	history = log --oneline --graph
+	undo = reset --hard
 [status]
 	showUntrackedFiles = normal
 	branch = true
 	short = true
+[commit]
+	template = /Users/fabio/.stCommitMsg

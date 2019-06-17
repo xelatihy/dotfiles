@@ -56,7 +56,7 @@ export HISTCONTROL=ignoredups
 # keyboard commands
 export INPUTRC=$HOME/.inputrc
 
-# atom is the default editor
+# vscode is the default editor
 export EDITOR="/usr/local/bin/code --wait --new-window "
 
 # FUNCTIONS ---------------------------------------------

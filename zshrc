@@ -27,3 +27,7 @@ antigen bundle osx
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
+export TAICHI_NUM_THREADS=8
+export TAICHI_REPO_DIR=/Users/fabio/Documents/Work/projects/taichi/taichi
+export PYTHONPATH=$TAICHI_REPO_DIR/python/:$PYTHONPATH
+export PATH=$TAICHI_REPO_DIR/bin/:$PATH

@@ -20,6 +20,7 @@
 [alias]
 	history = log --oneline --graph
 	undo = reset --hard
+	relmsg = log --oneline --no-decorate --format=format:'- %s'
 [status]
 	showUntrackedFiles = normal
 	branch = true

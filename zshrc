@@ -1,9 +1,6 @@
 # antigen 
 source ~/dotfiles/antigen.zsh
 
-# setup path
-PATH=/usr/texbin:$PATH
-
 # homebrew
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
